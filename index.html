@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manu Mohan — Data Analyst portfolio.">
+  <title>Manu Mohan | Data Analyst Portfolio</title>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home"><span class="logo-badge">MM</span> | Manu Mohan</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <h2 class="hero-title-sub">DATA ANALYST</h2>
+          <h1 class="hero-title-main">Turning data into <span>clear insights.</span></h1>
+          <p class="hero-text">
+            Civil Engineering graduate currently pursuing a Diploma in Data Analysis,
+            with a focus on Power BI, Excel, Power Query, DAX, SQL, and interactive reporting.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+            <a class="btn btn-cv" href="manu-mohan-cv.pdf" download>↓ Download CV</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Kerala, India</span>
+            <a href="mailto:1996manumohan@gmail.com">✉ 1996manumohan@gmail.com</a>
+            <a href="tel:+919495972780">☎ +91 9495972780</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="data-orbit orbit-1"></div>
+          <div class="data-orbit orbit-2"></div>
+          <div class="profile-mark">
+            <img src="profile.jpg" alt="Manu Mohan profile picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Analytical mindset, practical data skills.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              Analytical and detail-oriented Civil Engineering graduate currently pursuing a
+              Diploma in Data Analysis (Excel &amp; Power BI). Passionate about leveraging
+              data cleaning, DAX modeling, and interactive reporting to drive actionable
+              business insights and support organizational growth.
+            </p>
+          </div>
+          <div class="about-facts">
+            <div class="fact">
+              <strong>01 / Approach</strong>
+              <p>From raw datasets to dashboards, I focus on making information easier to understand and use.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+          <h2>Tools I use to work with data.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Business Intelligence</h3>
+            <p>Power BI, DAX Modeling, Interactive Dashboards, KPI Tracking</p>
+          </article>
+          <article class="skill-card">
+            <h3>Data Processing</h3>
+            <p>Advanced Excel, XLOOKUP, Pivot Tables, Power Query ETL, Data Cleaning</p>
+          </article>
+          <article class="skill-card">
+            <h3>Tools &amp; Technologies</h3>
+            <p>MS Word,SQL,Tableau,HTML & CSS(Basics)</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / PROJECTS</p>
+          <h2>Selected analytics work.</h2>
+        </div>
+
+        <div class="projects">
+          <!-- Project 1 -->
+          <article class="project-card featured">
+            <div class="project-top">
+              <span class="project-number">POWER BI DATA ANALYTICS PROJECT</span>
+              <span class="project-date">JAN – JUL 2026</span>
+            </div>
+            <h3>Call Center Ticket Analytics</h3>
+            <p>
+              Developed an interactive Power BI analysis of call center ticket data covering
+              80K total tickets, SLA performance, and backlog aging.
+            </p>
+            
+            <div class="project-stats">
+              <span>96.3% SLA compliance</span>
+              <span>52.0% First-contact resolution</span>
+              <span>151.5h Avg. resolution time</span>
+            </div>
+
+            <p class="project-detail">
+              Analyzed ticket distribution across priorities, statuses, and queues, identifying
+              that technical issues drove 58.2% of total demand and highlighting backlog
+              concentration in vendor requests.
+            </p>
+
+            <div class="video-card">
+              <video id="video1" controls preload="metadata">
+                <source src="call-center.mp4" type="video/mp4">
+                Your browser does not support video playback.
+              </video>
+              <button class="play-overlay-btn" onclick="playFullScreen('video1')">
+                ▶
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">PEOPLE ANALYTICS</span>
+              <span class="project-date">FY2026</span>
+            </div>
+            <h3>HR Analytics Dashboard Review</h3>
+            <p>
+              Built and reviewed a comprehensive workforce analytics dashboard utilizing
+              7,500 employee records across eight departments.
+            </p>
+
+            <div class="project-stats">
+              <span>18.0% Annual attrition</span>
+              <span>3.8 yrs Avg. tenure</span>
+              <span>$61.7K Avg. salary</span>
+            </div>
+
+            <p class="project-detail">
+              Analyzed primary attrition drivers such as work-life balance scores, pay gaps
+              in engineering roles, and promotion velocity to formulate targeted retention interventions.
+            </p>
+
+            <div class="video-card">
+              <video id="video2" controls preload="metadata">
+                <source src="hr-analytics.mp4" type="video/mp4">
+                Your browser does not support video playback.
+              </video>
+              <button class="play-overlay-btn" onclick="playFullScreen('video2')">
+                ▶
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / EDUCATION</p>
+          <h2>Education &amp; learning.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2026 – PRESENT</div>
+            <div>
+              <h3>Diploma in Data Analysis (DDA)</h3>
+              <p class="institution">G-TEC Computer Education, Perumbavoor</p>
+              <ul>
+                <li>Cleaned and transformed raw multi-table datasets using Power Query.</li>
+                <li>Built relational models connecting Fact and Dimension tables.</li>
+                <li>Wrote custom DAX measures using CALCULATE, SUM, and ALL.</li>
+                <li>Designed interactive dashboards with slicers, trend charts, and KPI cards.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">MAY 2018</div>
+            <div>
+              <h3>B.Tech in Civil Engineering</h3>
+              <p class="institution">Mahatma Gandhi University, Kottayam, Kerala</p>
+              <p>Foundational training in AutoCAD.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">MARCH 2014</div>
+            <div>
+              <h3>Higher Secondary — Science</h3>
+              <p class="institution">Board of Higher Secondary Examination, Kerala</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2012</div>
+            <div>
+              <h3>Secondary School Certificate — CBSE</h3>
+              <p class="institution">St. Thomas Public School, Perumbavoor</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section languages">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">05 / ADDITIONAL INFORMATION</p>
+          <h2>Languages</h2>
+        </div>
+        <div class="language-grid">
+          <div class="language-card">
+            <strong>English</strong>
+            <span>Fluent</span>
+          </div>
+          <div class="language-card">
+            <strong>Malayalam</strong>
+            <span>Native</span>
+          </div>
+          <div class="language-card">
+            <strong>Hindi</strong>
+            <span>Read &amp; Write</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">06 / CONTACT</p>
+          <h2>Let's connect.</h2>
+          <p>Interested in data analytics, dashboards, and turning business data into useful insights.</p>
+        </div>
+        <div>
+          <a class="contact-link" href="mailto:1996manumohan@gmail.com">1996manumohan@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Manu Mohan</span>
+      <div class="footer-socials">
+        <a href="https://wa.me/qr/G3EW7JEA6HDVK1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.linkedin.com/in/manu-mohan-774710336" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://www.instagram.com/1996manumohan" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+      <span>Data Analyst Portfolio</span>
+    </div>
+  </footer>
+
+  <script>
+    function playFullScreen(videoId) {
+      const video = document.getElementById(videoId);
+      video.play();
+
+      if (video.requestFullscreen) {
+        video.requestFullscreen();
+      } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+      } else if (video.msRequestFullscreen) {
+        video.msRequestFullscreen();
+      }
+    }
+
+    document.querySelectorAll('video').forEach(vid => {
+      vid.addEventListener('play', function() {
+        const btn = this.parentElement.querySelector('.play-overlay-btn');
+        if (btn) btn.style.display = 'none';
+      });
+      vid.addEventListener('pause', function() {
+        const btn = this.parentElement.querySelector('.play-overlay-btn');
+        if (btn) btn.style.display = 'flex';
+      });
+    });
+  </script>
+</body>
+</html>
+
